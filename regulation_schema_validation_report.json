@@ -1,0 +1,37 @@
+{
+  "total_websites": 6,
+  "passed": 0,
+  "failed": 6,
+  "results": [
+    {
+      "url": "https://food.ec.europa.eu",
+      "status": "FAIL",
+      "error": "No regulation data found in the required schema format."
+    },
+    {
+      "url": "https://fda.gov/food",
+      "status": "FAIL",
+      "error": "Unable to access website content: SSL certificate verification failed."
+    },
+    {
+      "url": "https://aphis.usda.gov/planthealth",
+      "status": "FAIL",
+      "error": "Cannot access the website to verify regulation data."
+    },
+    {
+      "url": "https://cdfa.ca.gov",
+      "status": "FAIL",
+      "error": "Unable to access the website due to SSL certificate verification failure."
+    },
+    {
+      "url": "https://cdpr.ca.gov",
+      "status": "FAIL",
+      "error": "Unable to extract all required fields in exact schema format from the website content."
+    },
+    {
+      "url": "https://arb.ca.gov",
+      "status": "FAIL",
+      "error": "The website content analysis did not yield regulation records with the required 6 fields in the exact specified format."
+    }
+  ]
+}

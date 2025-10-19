@@ -57,3 +57,21 @@ The system was developed for agricultural analytics use cases like **Veginova Se
 1. Clone the repository and install dependencies:
    ```bash
    pip install -r requirements.txt
+   Set your environment variables:
+
+OPENAI_API_KEY=<your_openai_key>
+APIFY_TOKEN=<your_apify_token>
+
+
+Run the FastAPI server:
+
+uvicorn main:app --reload
+
+
+Access API docs:
+
+http://localhost:8004/docs
+
+🧠 Example Workflow
+Competitor URLs → Crawl4AI → Text Extraction → LLM Summarization → JSON Report → Dashboard Integration
+
